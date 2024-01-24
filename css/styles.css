@@ -162,6 +162,7 @@ h2 {
     content: '';
     display: block;
     border-bottom: 4px solid #404bbf;
+    border-radius: 2px;
     margin-bottom: 0 auto;
 }
 
