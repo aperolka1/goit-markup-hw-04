@@ -144,16 +144,25 @@ h2 {
     color: #2e2f42;
 }
 
-.std {
+.nav-item {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
     color: #2e2f42;
 }
 
-.std:hover,
-.std:focus {
+.nav-item:hover,
+.nav-item:focus {
     color: #404bbf;
+}
+
+
+
+.std::after {
+    content: '';
+    display: block;
+    border-bottom: 4px solid #404bbf;
+    margin-bottom: 0 auto;
 }
 
 .adrs {
@@ -194,8 +203,11 @@ h2 {
 
 .ef-solution {
     background-color: #2E2F42;
+    background-image: url(./bg/.ef-solution.jpg);
+    background-size: cover;
     padding: 188px 0;
 }
+
 
 .main-heading {
     display: block;
