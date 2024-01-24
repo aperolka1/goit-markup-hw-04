@@ -147,7 +147,6 @@ h2 {
 .nav-item {
     display: block;
     padding-top: 24px;
-    padding-bottom: 24px;
     color: #2e2f42;
 }
 
@@ -163,7 +162,7 @@ h2 {
     display: block;
     border-bottom: 4px solid #404bbf;
     border-radius: 2px;
-    margin-bottom: 0 auto;
+    margin-top: 20px;
 }
 
 .adrs {
