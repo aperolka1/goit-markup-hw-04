@@ -203,7 +203,7 @@ h2 {
 
 .ef-solution {
     background-color: #2E2F42;
-    background-image: url(./bg/.ef-solution.jpg);
+    background-image: url(../bg/.ef-solution.jpg);
     background-size: cover;
     padding: 188px 0;
 }
