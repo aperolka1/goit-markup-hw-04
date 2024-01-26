@@ -214,7 +214,7 @@ h2 {
 /* ============== /MAIN STYLES ============== */
 .sct {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/ef-solution.jpg);
-    min-width: 1440px;
+    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -308,6 +308,26 @@ h2 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455
+}
+
+.icon-list {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-container {
+    
+
+}
+
+.icon {
+    fill: black;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
 }
 /* ============== /SECOND SECTION-OUR TEAM ============== */
 .team-page {
