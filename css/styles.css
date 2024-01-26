@@ -163,6 +163,7 @@ h2 {
 .std {
     position: relative;
     color: #404BBF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .std::after {
@@ -317,9 +318,8 @@ h2 {
     gap: 24px;
 }
 
-.icon-container {
-
-
+.icon-container:hover {
+   
 }
 
 .icon {
@@ -329,6 +329,11 @@ h2 {
     overflow: hidden;
     height: 40px;
     width: 40px;
+}
+
+.sm-link {
+    height: 100%;
+    width: 100%;
 }
 /* ============== /SECOND SECTION-OUR TEAM ============== */
 .team-page {
