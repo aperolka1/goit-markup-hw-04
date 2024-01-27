@@ -318,18 +318,14 @@ h2 {
     gap: 24px;
 }
 
-.icon-container:hover {
-   
-}
 
 .icon {
     fill: #f4f4fd;
+    justify-content: center;
     left: 12px;
 }
 
 .icon-item {
-    display: flex;
-    justify-content: center;
     height: 40px;
     width: 40px;
 }
@@ -341,12 +337,12 @@ h2 {
     border-radius: 50%;
     height: 100%;
     width: 100%;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .sm-link:hover,
 .sm-link:focus {
-    background-color: #31D0AA;
+    background-color: #404bbf;
 }
 
 /* ============== /SECOND SECTION-OUR TEAM ============== */
