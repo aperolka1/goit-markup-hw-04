@@ -483,6 +483,12 @@ h2 {
     letter-spacing: 0.02em;
 }
 
+.ftt-soc-list {
+
+    display: flex;
+    margin-right: 120px;
+}
+
 .icon-list-ftr {
     display: flex;
     align-items: baseline;
