@@ -486,12 +486,12 @@ h2 {
 .ftt-soc-list {
 
     display: flex;
+    align-items: baseline;
     margin-right: 120px;
 }
 
 .icon-list-ftr {
     display: flex;
-    align-items: baseline;
 }
 
 .icon-item-ftr {
