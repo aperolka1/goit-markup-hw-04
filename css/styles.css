@@ -448,6 +448,27 @@ h2 {
     margin-bottom: 8px;
 }
 
+.over-pic {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    padding: 30px 42px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    color: #F4F4FD;
+    transform: translateY(100%);
+}
+
+.over-pic:hover .overlay {
+    transform: translateY(0%);
+    transition: 250ms;
+}
 
 /* ============== /FOOTER ============== */
 .ftr {
